@@ -1,0 +1,42 @@
+{
+  "scenarios": [
+    {
+      "name": "Black Friday Disaster",
+      "lost_revenue": 2.7284841053187847e-11,
+      "products_affected": 11,
+      "avg_demand_spike": 2.7532771952610116,
+      "description": "Baseline system orders normal quantities, misses 2.36x demand spike"
+    },
+    {
+      "name": "Supply Disruption Blindness",
+      "lost_revenue": 0.0,
+      "products_affected": 0,
+      "duration_days": 21,
+      "description": "System doesnt anticipate port delays, causes extended stockouts"
+    },
+    {
+      "name": "MOQ Optimization Failure",
+      "lost_savings": 296120.37000000005,
+      "orders_affected": 183,
+      "avg_savings_per_order": 1618.144098360656,
+      "description": "Orders 80-99% of discount threshold, misses bulk savings"
+    },
+    {
+      "name": "Multi-Product Consolidation Waste",
+      "wasted_shipping": 300607.63,
+      "opportunities": 226,
+      "avg_waste_per_occurrence": 1330.1222566371682,
+      "description": "Separate orders to same supplier on same day = extra shipping"
+    },
+    {
+      "name": "Supplier Selection Inefficiency",
+      "potential_savings": 676181.0858971088,
+      "orders_affected": 228,
+      "description": "Fixed supplier assignment ignores cost-effective alternatives"
+    }
+  ],
+  "total_opportunity": 1272909.0858971088,
+  "baseline_procurement": 43311028.0299999,
+  "baseline_revenue": 78344402.2699972,
+  "improvement_potential_pct": 2.938995317810081
+}
