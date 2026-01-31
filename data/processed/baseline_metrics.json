@@ -1,0 +1,12 @@
+{
+  "stockout_rate_pct": 1.5941632466940265,
+  "stockout_days": 1748,
+  "total_revenue": 78344402.2699972,
+  "total_profit": 34642290.450000085,
+  "total_orders": 1098,
+  "total_procurement": 43311028.0299999,
+  "avg_order_value": 39445.38071948989,
+  "on_time_pct": 92.07650273224044,
+  "discount_capture_pct": 55.73770491803279,
+  "estimated_lost_revenue": 3317259.14
+}
