@@ -1,0 +1,20 @@
+{
+  "total_revenue": 76765701.21999717,
+  "total_cost": 41261590.765800014,
+  "total_profit": 35504110.45419715,
+  "profit_margin_pct": 46.24996566168078,
+  "total_lost_sales": 1578701.0499999966,
+  "lost_sales_pct_of_revenue": 2.056518764123203,
+  "total_orders": 997,
+  "avg_order_value": 39927.05684232697,
+  "total_procurement_spend": 39807275.671799995,
+  "total_shipping_cost": 1454315.094,
+  "orders_with_discount": 598,
+  "discount_capture_rate_pct": 59.97993981945837,
+  "total_discount_savings": 1503078.1482000006,
+  "avg_inventory_value": 3597502.7039124486,
+  "avg_inventory_units": 83482.71545827633,
+  "stockout_incidents": 1309,
+  "stockout_rate_pct": 1.1937984496124032,
+  "avg_orders_per_day": 1.3638850889192886
+}
